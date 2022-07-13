@@ -1,0 +1,76 @@
+#heading
+{
+  background-color: darksalmon;
+}
+#login_header
+{
+  background-color: blanchedalmond;
+}
+#label
+{
+  font-size: 20px;
+  display: inline-block;
+}
+.inputbox
+{
+margin: 6px;
+width: 250px;
+}
+#conditionR
+{
+  background-color: darkseagreen;
+}
+.eyeicon
+{
+  width: 30px;
+}
+.mail-wrapper{
+  height: 98vh;
+  background-color: rgb(253, 219, 240);
+}
+
+.mail-header{
+  height: 10%;
+  border: 3px solid rgb(47, 0, 255);
+}
+
+.content-section{
+  height: 90%;
+  border: 2px solid rgb(47, 0, 255);
+  display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+  width: 20%;
+    border: 3px solid rgb(47, 0, 255);
+}
+
+.middle-section{
+  width: 80%;
+    border: 3px solid rgb(47, 0, 255);
+    background-color: rgb(244, 178, 162);
+    overflow: auto;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #dc0864;
+  color: white;
+}
